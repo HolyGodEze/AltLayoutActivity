@@ -24,8 +24,8 @@
 
         <TextView
             android:id="@+id/name"
-            android:layout_width="148dp"
-            android:layout_height="60dp"
+            android:layout_width="183dp"
+            android:layout_height="63dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Display3"
             app:layout_constraintEnd_toEndOf="@+id/profile_photo"
             app:layout_constraintStart_toStartOf="@+id/profile_photo"
@@ -37,7 +37,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="8dp"
-            android:text="Email"
+            android:text="@string/form_email"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             app:layout_constraintEnd_toEndOf="@+id/department"
             app:layout_constraintStart_toStartOf="@+id/department"
@@ -58,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="8dp"
-            android:text="Extension"
+            android:text="@string/form_extension"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -80,7 +80,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:paddingTop="8dp"
-            android:text="Department"
+            android:text="@string/form_department"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             app:layout_constraintEnd_toEndOf="@+id/supervisor"
             app:layout_constraintStart_toStartOf="@+id/supervisor"
@@ -104,7 +104,7 @@
             android:layout_marginStart="28dp"
             android:layout_marginTop="12dp"
             android:paddingTop="8dp"
-            android:text="Supervisor"
+            android:text="@string/form_supervisor"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             app:layout_constraintStart_toStartOf="@+id/name"
             app:layout_constraintTop_toBottomOf="@+id/name" />
@@ -126,7 +126,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="8dp"
-            android:text="Direct Reports"
+            android:text="@string/form_direct_reports"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
